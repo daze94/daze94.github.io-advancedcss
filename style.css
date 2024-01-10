@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e4e4e4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px; /* Adjust as needed */
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px; /* Gives space between nav items */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #555; /* Darken the button on hover */
+}
+
+section {
+    padding: 40px 0;
+    background-color: white;
+    border-bottom: 1px solid #ddd; /* Optional: adds a line between sections */
+}
+
+#about, #work, #contact {
+    min-height: 400px; /* Ensures that content sections have a min-height */
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#work {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}

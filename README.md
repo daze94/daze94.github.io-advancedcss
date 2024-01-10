@@ -20,8 +20,8 @@ This portfolio was created as part of the coursework for the UofT Coding Bootcam
 
 ## Deployed Application
 
-View the deployed application [here](#live-url).
+View the deployed application https://daze94.github.io/daze94.github.io-advancedcss/
 
 ## GitHub Repository
 
-Access the repository [here](#repo-url).
+Access the repository https://github.com/daze94/daze94.github.io-advancedcss.git
